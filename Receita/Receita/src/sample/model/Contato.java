@@ -2,10 +2,12 @@ package sample.model;
 
 public class Contato {
 
+    //Atributos
     private String wpp;
     private String email;
     private String twitter;
 
+    //Getters e Setters
     public String getWpp() {
         return wpp;
     }
@@ -30,6 +32,7 @@ public class Contato {
         this.twitter = twitter;
     }
 
+    //toString
     @Override
     public String toString() {
         return "\nWpp: " + wpp +
